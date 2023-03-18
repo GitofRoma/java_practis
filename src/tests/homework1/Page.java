@@ -12,7 +12,7 @@ import java.util.Arrays;
 @NoArgsConstructor
 @Setter
 @Getter
-public class Page {
+public class Page implements Searchable{
     Link pageLink;
     int pageWeight;
     int pageHight;
@@ -24,4 +24,14 @@ public class Page {
     ArrayList<String> listTexts;
 
 
+    @Override
+    public int[] search(String str) {
+        // поиск на странице
+        return new int[2];
+    }
+
+    @Override
+    public void show(int[] location) {
+        //выделяет результат поиска
+    }
 }

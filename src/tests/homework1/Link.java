@@ -14,5 +14,7 @@ public class Link {
     Page pageLink;
     String strLink;
 
+    int[] placeLink;
+
 }
 
