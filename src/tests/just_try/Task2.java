@@ -56,7 +56,7 @@ public class Task2 {
 
         //соединяем символы из обработанного ArrayList в строку
         for (Character c : list) {
-            strAfterDelete.append(String.valueOf(c));
+            strAfterDelete.append(c);
         }
 
         System.out.println(" --> " + strAfterDelete);
