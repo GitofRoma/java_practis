@@ -10,6 +10,9 @@ public class Task5 {
      то есть из клеток с координатами (i – 1, j) и (i, j – 1).
      Таким образом, для клетки (i, j) число маршрутов A[i][j] будет равно A[i – 1][j] + A[i][j – 1], то есть задача сводится к двум подзадачам.".
      */
+
+    //Делаю дз с опозданиями(опаздываю от группы), но хочу доделать дабы разобраться
+
     public static void main(String[] args) {
             int n = 3;
             int m = 4;
@@ -17,8 +20,6 @@ public class Task5 {
             System.out.println("Количество путей: " + paths);
 
     }
-
-
 
         public static int countPaths(int n, int m) {
             int[][] A = new int[n][m];
